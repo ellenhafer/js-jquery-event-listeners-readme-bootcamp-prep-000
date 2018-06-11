@@ -8,7 +8,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function(){
-    
+    $('img').addClass('tasty');
   })
 }
 
@@ -18,6 +18,10 @@ function pressIt() {
       alert("You pressed the G key!")
     }
   })
+}
+
+function submitIt() {
+  $('')
 }
 
 $(document).ready(function(){
