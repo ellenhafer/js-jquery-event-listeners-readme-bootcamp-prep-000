@@ -1,7 +1,15 @@
 //define functions here
 
 function getIt() {
-  
+  $('p').on('click', function(){
+    alert('Hey!');
+  })
+}
+
+function pressIt() {
+  $('input').on('keydown', function(key){
+    if (key.which == )
+  })
 }
 
 $(document).ready(function(){
